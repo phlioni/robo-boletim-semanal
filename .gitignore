@@ -1,0 +1,30 @@
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente Virtual
+# Pasta extremamente importante para ser ignorada.
+# Ela é recriada com o arquivo requirements.txt
+/venv
+
+# Arquivos de configuração de IDEs e Editores
+.vscode/
+.idea/
+
+# Pasta de relatórios gerados pelo robô
+# São resultados, não fazem parte do código-fonte.
+/relatorios/
+
+# Arquivos de relatório temporários baixados na raiz do projeto
+relat.xls
+relat.xlsx
+
+# Driver do navegador (executável)
+chromedriver.exe
+
+# ARQUIVO CRÍTICO DE SEGURANÇA
+# Nunca envie seu arquivo de configuração com senhas para o Git.
+# Em vez disso, envie um "template" (modelo) dele.
+config.py

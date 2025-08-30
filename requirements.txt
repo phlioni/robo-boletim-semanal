@@ -1,0 +1,8 @@
+pandas
+openpyxl
+selenium
+pywin32
+python-dateutil
+openai
+wordcloud
+matplotlib

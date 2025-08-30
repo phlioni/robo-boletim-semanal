@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+import os
+
+# ==============================================================================
+# ## ARQUIVO DE CONFIGURAÇÕES ##
+# Preencha todas as informações abaixo
+# ==============================================================================
+basedir = os.path.abspath(os.path.dirname(__file__))
+# --- Credenciais do Site ---
+SITE_URL = "https://psofficeapp.com.br/mosten/core/relatorios/manager.do?controller=com.mcfox.core.controller.ReportController&state=List&_sctx=7956368346612362963&_mn_cdg=relatorios&_nm_ctx=aloc"
+SITE_LOGIN = ""
+SITE_SENHA = ""
+
+# --- Configurações de E-mail (Outlook/Office 365) ---
+SMTP_SERVER = "smtp.office365.com"
+SMTP_PORT = 587
+EMAIL_REMETENTE = ""
+EMAIL_SENHA = "" # Use sua senha normal ou uma "Senha de App" se a Autenticação Multifator estiver ativa.
+
+# --- Destinatários Fixos do E-mail ---
+ZRC_DESTINATARIO_PRINCIPAL = {"nome": "", "email": ""}
+ZRC_DESTINATARIOS_COPIA = [""]
+
+# --- Assinatura do E-mail ---
+ASSINATURA_NOME = ""
+ASSINATURA_EMAIL = ""
+ASSINATURA_TELEFONE1 = ""
+ASSINATURA_TELEFONE2 = ""
+ASSINATURA_SITE = "mosten.com"
+# IMPORTANTE: Use o caminho completo para as imagens.
+CAMINHO_LOGO_MOSTEN = os.path.join(basedir, "images", "mosten.png")
+CAMINHO_LOGO_SELOS = os.path.join(basedir, "images", "selos.png")
+
+# --- Nomes de Arquivos e Pastas ---
+NOME_ARQUIVO_BAIXADO = "relat.xls" # Nome do arquivo que o site baixa
+PASTA_DOWNLOADS = os.path.join(os.path.expanduser('~'), 'Downloads')
+PASTA_RELATORIOS_FINAL = "relatorios"
+
+# --- (NOVO) Destinatários do E-mail de RESUMO GERAL ---
+RESUMO_DESTINATARIO_PRINCIPAL = {"nome": "", "email": ""}
+RESUMO_DESTINATARIOS_COPIA = [""]
+
+# --- (NOVO) Destinatário do E-mail de STATUS DA EXECUÇÃO ---
+STATUS_EMAIL_DESTINATARIO = ""
