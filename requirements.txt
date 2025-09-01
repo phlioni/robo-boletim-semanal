@@ -4,5 +4,4 @@ selenium
 pywin32
 python-dateutil
 openai
-wordcloud
-matplotlib
+azure-devops
